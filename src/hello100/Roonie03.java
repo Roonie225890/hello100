@@ -5,7 +5,7 @@ public class Roonie03 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// char: 2^16 => 0 - 65535
-		char v1 = 'a';
+		char v1 = 'a'; //97
 		char v2 = 98;  // ASCII: b
 		char v3 = '資';
 		System.out.println(v1);

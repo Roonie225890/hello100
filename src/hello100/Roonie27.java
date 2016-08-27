@@ -3,8 +3,10 @@ package hello100;
 public class Roonie27 {
 
 	public static void main(String[] args) {
+		TWID id1 = new TWID(true);
+		System.out.println(id1.getID());
 		
-		if (TWID.isRight("A123456789")){
+		if (TWID.isRight("N124810957")){
 			System.out.println("OK");
 		}else{
 			System.out.println("XX");

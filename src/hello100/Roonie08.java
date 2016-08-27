@@ -11,11 +11,11 @@ public class Roonie08 {
 //		System.out.println(a);
 //		System.out.println(a--);
 //		System.out.println(a);
-//		if (--a >= 10 & b++ <= 3){
-//			System.out.println("OK:a=" + a + ",b=" + b);
-//		}else{
-//			System.out.println("XX:a=" + a + ",b=" + b);
-//		}
+		if (a-- >= 10 && b++ <= 3){
+			System.out.println("OK:a=" + a + ",b=" + b);
+		}else{
+			System.out.println("XX:a=" + a + ",b=" + b);
+		}
 	}
 
 }
