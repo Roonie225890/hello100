@@ -1,12 +1,12 @@
 package hello100;
 
-public class Bike {
+class Bike2 {
 	//Field
 	private double speed;
 	static int count;
 	
 	//Constructor
-	public Bike(){
+	Bike2(){
 		count++;
 		speed = 1;
 		System.out.println("Bike():" + speed);
